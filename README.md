@@ -13,3 +13,5 @@ The assets used by this mod can be found here: https://web.archive.org/web/20230
 
 ## Building
 Unfortunately, it seems the egui-d3d11 repo and respective crates have been taken down by the owner, so this cannot be built from source anymore. This repo does not contain egui-d3d11 files aside from a modified lib.rs from the example-wnd directory.
+
+If you do have access to the egui-d3d11 repo (and its dependencies) you can download the assets from the link above, and save them with the name of their image description (with a .png extension) into the `assets/` directory. Then just `cargo build --release`
