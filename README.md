@@ -6,7 +6,7 @@ This is based off of sy1ntexx's egui-d3d11 repo (https://github.com/sy1ntexx/egu
 It has no functionality, it only exists as an example of egui in d3d11.
 
 ## Installation
-Install as a plugin for nier-mod-loader as per its instructions: https://github.com/xxk-i/Nier-Mod-Loader.
+Install as a `LATE` load plugin for nier-mod-loader as per its instructions: https://github.com/xxk-i/Nier-Mod-Loader.
 
 ## Assets
 The assets used by this mod can be found here: https://web.archive.org/web/20230616174121/https://imgur.com/a/Pz0JOFe
