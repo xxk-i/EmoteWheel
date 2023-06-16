@@ -1,0 +1,38 @@
+[package]
+name = "example-wnd"
+version = "0.1.0"
+edition = "2021"
+authors = ["sy1ntexx"]
+description = "Example dll for egui d3d11 showcase."
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+faithe = "0.3.1"
+egui = "0.20"
+libc = "0.2.112"
+image = { version = "0.24", features = ["jpeg"] }
+
+[dependencies.egui_extras]
+version = "0.20"
+features = ["image"]
+
+[dependencies.egui-d3d11]
+path = "../egui-d3d11"
+features = ["force-compile", "save-blob", "parking-lot"]
+
+[dependencies.sunshine]
+git = "https://github.com/sy1ntexx/sunshine"
+
+[dependencies.windows]
+version = "0.36"
+features = [
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_Graphics_Dxgi_Common",
+    "Win32_Graphics_Direct3D11",
+    "Win32_Graphics_Dxgi",
+    "Win32_Foundation"
+]
