@@ -9,7 +9,7 @@ It has no functionality, it only exists as an example of egui in d3d11.
 Install as a `LATE` load plugin for nier-mod-loader as per its instructions: https://github.com/xxk-i/Nier-Mod-Loader.
 
 ## Assets
-The assets used by this mod can be found here: https://web.archive.org/web/20230616174121/https://imgur.com/a/Pz0JOFe
+The assets used by this mod can be found here: https://web.archive.org/web/20230915173344/https://cdn.discordapp.com/attachments/897325582583476265/1152296033624268892/assets.zip
 
 ## Building
 Unfortunately, it seems the egui-d3d11 repo and respective crates have been taken down by the owner, so this cannot be built from source anymore. This repo does not contain egui-d3d11 files aside from a modified lib.rs from the example-wnd directory.
